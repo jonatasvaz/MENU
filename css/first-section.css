@@ -1,0 +1,29 @@
+#first-section{
+    height: 160px;
+    border-bottom: 1px solid orange;
+}
+
+
+#first-section ul li a{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(230, 155, 17);
+    border: 3px solid orange;
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 4px 8px 4px 8px;
+    background-color: rgb(247, 247, 234);
+}
+#first-section ul li a:hover{
+    background-color: rgb(230, 230, 199);
+}
+#first-section ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+#first-section ul li{
+margin-left: 100px;
+margin-top: 50px;
+}

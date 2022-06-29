@@ -1,0 +1,64 @@
+#section{
+display: flex;
+flex-direction: row;
+padding-left: 50px;
+}
+.card{
+    list-style: none;
+    width: 30%;
+    height: 450px ;
+     margin-left: 10px;
+    
+}
+
+#section{
+    margin-top: 40px;
+}
+#section ul li{
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+    font-size: 46px;
+    color: orange;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+#section .name{
+    font-size: 30px;
+    font-weight: 600;
+   text-align: center;
+   margin-top: 15px;
+   list-style: none;
+}
+#section .discricion a{
+     margin-left: 20%; 
+     font-size: 18px;
+    text-decoration: none;
+     color: black;
+     list-style: none;
+   text-align: end;
+}
+#section .price a{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 40%;
+ text-decoration: none;
+}
+.card ul li{
+    list-style: none;
+}
+
+#section ul li img{
+  width: 300px;
+  height: 290px;
+  border-radius: 50%;
+  margin-left: 120px;
+  margin-top: 35px;
+}
+#section ul li a:hover{
+    color: grey;
+}
