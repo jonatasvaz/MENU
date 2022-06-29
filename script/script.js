@@ -25,7 +25,7 @@ let price3= document.querySelector("#price3")
 
 breakfeast.addEventListener("click", (e)=>{
     e.preventDefault()
-    change()
+    changeBreak()
 })
 
 
